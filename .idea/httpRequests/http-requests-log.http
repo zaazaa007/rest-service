@@ -1,0 +1,32 @@
+GET http://localhost:8080/greeting?name=mama
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-27T051105.200.json
+
+###
+
+GET http://localhost:8080/greeting?neme=mama
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-27T051038.200.json
+
+###
+
+GET http://localhost:8080/greeting/mama
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-27T050947.404.json
+
+###
+
+GET http://localhost:8080/greeting
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-27T050848.200.json
+
+###
+
